@@ -41,8 +41,12 @@ def Beolvas():
             else:
                 i += 1
         print("Beolvasás kész.")
+    i = 0 # Mikulás törlése
+    for item in tomb:
+        if item.nev[1] == "Mikulás":
+            tomb.pop(i)
+        i += 1
     return tomb
-
 def main():
     print("Ez a program a Mikulasszan.txt szövegesfájlból beolvassa és kiértékeli az adatokat.")
     tomb = Beolvas()

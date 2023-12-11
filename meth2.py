@@ -1,5 +1,6 @@
+import meth1
 def main():
-    pass
+    print(meth1.fenyofa(4, True))
 
 
 if __name__ == '__main__':
