@@ -1,7 +1,7 @@
 class RenSzarvas:
     nev = []
-    magassag = 0
-    hely = 0
+    magassag = -1
+    hely = -1
     leiras=""
 
     def __init__(self, sor):
@@ -11,11 +11,13 @@ class RenSzarvas:
         try:
             self.magassag = int(sorr[1])
         except:
-            print("An exception occurred")
+            pass
+            #print("An exception occurred")
         try:
             self.hely = int(sorr[2])
         except:
-            print("An exception occurred")
+            pass
+            #print("An exception occurred")
 
     def getNev(self):
         return self.nev
@@ -37,7 +39,7 @@ def Beolvas():
                 i += 1
                 tomb.append(RenSzarvas(item))
             else:
-                i+=1
+                i += 1
         print("Beolvasás kész.")
     return tomb
 
