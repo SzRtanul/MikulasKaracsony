@@ -13,5 +13,5 @@ def main():
         szoveg+=f"{i}*"
     print(szoveg.rstrip('*'))
 
-    if __name__ == '__main__':
-        main()
+if __name__ == '__main__':
+    main()
