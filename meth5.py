@@ -12,3 +12,6 @@ def main():
     for i in sorozat(int(input("Kérem a kiírandó sorozat elejét: ")), int(input("Kérem a kiírandó sorozat végét: "))):
         szoveg+=f"{i}*"
     print(szoveg.rstrip('*'))
+
+    if __name__ == '__main__':
+        main()
