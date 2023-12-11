@@ -61,7 +61,7 @@ def main():
         if item.nev[1] != None and item.nev[1] == "Pompás":
             print(f"\t{item.nev[0]}")
     # d. feladat:
-    print("Szavak előfordulása a leírásokban: :")
+    print("Mikulás szó előfordulása a leírásokban: ")
     for item in tomb:
         print(f"\t{item.nev[0]}: {len(item.leiras.lower().split('mikulás'))-1}")
     # e. feladat:
