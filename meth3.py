@@ -1,3 +1,6 @@
+def disz():
+    pass
+
 def main():
     pass
 
